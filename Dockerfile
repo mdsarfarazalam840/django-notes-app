@@ -19,5 +19,5 @@ EXPOSE 8000
 #RUN python manage.py migrate
 #RUN python manage.py makemigrations
 
-# Start Django on container startup
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+# # Start Django on container startup
+# CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
