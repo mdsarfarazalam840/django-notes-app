@@ -28,3 +28,6 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+
+`Checking whether the webhook is working or not`
